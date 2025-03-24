@@ -17,6 +17,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
+              "about",           // 添加这一行
               "quickstart",
               "development"
             ]
