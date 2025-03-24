@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "Palm",
+  "theme": "palm",
   "name": "CHC5056 Innovative Product Development",
   "colors": {
     "primary": "#16A34A",
