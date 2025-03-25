@@ -17,9 +17,19 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "about",
-              "quickstart",
-              "development"
+              "about"
+            ]
+          },
+          {
+            "group": "Course Content",
+            "pages": [
+              "coursework",
+              "reading-materials",
+              "project-management-tools",
+              "how-to",
+              "case-studies",
+              "templates-and-frameworks",
+              "related-links"
             ]
           },
           {
