@@ -21,6 +21,14 @@
             ]
           },
           {
+            "group": "About",
+            "pages": [
+              "About/module-handbook",
+              "About/attendance-policy",
+              "About/ai-policy"
+            ]
+          },
+          {
             "group": "Course Content",
             "pages": [
               "coursework",
