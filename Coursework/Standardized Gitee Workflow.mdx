@@ -1,0 +1,119 @@
+---
+title: 'Standardized Gitee Workflow'
+
+---
+
+# Standardized Gitee Workflow
+
+## 1. Branch Management
+
+### Main Branch (master):
+
+- Used only for releasing **stable versions** of the code.
+- No direct commits are allowed; updates are made only by merging other branches (**Merge Request**).
+
+### Personal Branch (feature/StudentName_FeatureDescription):
+
+Each student creates their own branch from the `Main` Branch named in the format `feature/StudentName_FeatureDescription`.
+
+- Example: `feature/John_UserLogin`.
+- The results of each Sprint’s work are pushed to the personal branch.
+- **Never submit code on behalf of your classmates.**
+
+------
+
+# 2. Commit Message Convention
+
+**Format:**	
+
+```
+<type>(<scope>): <description>
+```
+
+**Type (Required):**
+
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation updates
+- `style`: Code formatting (e.g., spaces, indentation, no functional changes)
+- `refactor`: Code refactoring (no functional changes)
+- `test`: Test-related changes
+- `chore`: Miscellaneous tasks (e.g., build tools, dependency updates)
+
+**Scope (Optional):**
+
+- Describes the scope of the code changes, such as a module or file name.
+
+**Description (Required):**
+
+- Briefly describe the changes in the commit, in English.
+
+**Examples:**
+
+- `feat(user): Add user login functionality`
+- `fix(login): Fix styling issue on login page`
+- `docs(readme): Update project README file`
+
+------
+
+## 3. Merge Request (MR) Process
+
+### Create MR:
+
+- When the feature on the personal branch is complete, the student creates an MR to merge their branch into the `Master` branch.
+- MR title format: `[Sprint X] StudentName_FeatureDescription`, e.g., `[Sprint 3] John_UserLogin`.
+
+- **MR Template:**
+  The following template is mandatory:
+
+```
+## Feature Description
+[Briefly describe the functionality implemented or the issue fixed in this MR]
+
+## Test Evidence
+[Attach test screenshots to prove the functionality works]
+
+## Related Issue
+[If there is a related Issue, link it here]
+
+## Notes
+[Any additional comments]
+```
+
+### Code Review:
+
+- Each MR must be reviewed by at least 2 reviewers (Code Review).
+- Only after approval can the code be merged into the `Master` branch..
+
+### Testing Requirements:
+
+- Each MR must include test evidence (screenshots or videos) to prove the functionality works.
+
+------
+
+## 4. Release Process
+
+**At the end of each Sprint:**
+
+- Merge the personal branches into the `master` branch to release a stable version.
+- Ensure all features are tested and there are no critical bugs before merging.
+
+**Regular Branch Cleanup:**
+
+- Clean up merged personal branches at the end of each Sprint to avoid branch clutter.
+
+**Conflict Resolution:**
+
+- Students should pull the latest code from the `Master` branch before submitting their code to resolve potential conflicts.
+- If conflicts are complex, the Module Leader/AI Tools can provide guidance.
+
+------
+
+### Example Workflow
+
+**Student John develops the user login feature:**
+
+1. Create branch: `feature/John_UserLogin`
+2. Commit code: `feat(user): Add user login functionality`
+3. Create MR: `[Sprint 4] John_UserLogin`, attach test screenshots and feature description.
+4. After code review, merge into the `Master` branch.
