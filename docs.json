@@ -22,7 +22,6 @@
           },
           {
             "group": "About",
-            "icon": "circle-info",
             "pages": [
               "About/module-handbook",
               "About/attendance-policy",
@@ -30,15 +29,23 @@
             ]
           },
           {
-            "group": "Course Content",
+            "group": "Coursework",
+            "icon": "book",
             "pages": [
-              "coursework",
-              "reading-materials",
-              "project-management-tools",
-              "how-to",
-              "case-studies",
-              "templates-and-frameworks",
-              "related-links"
+              "Coursework/Agile Project Ideas",
+              {
+                "group": "Project Proposal",
+                "pages": [
+                  "Coursework/Coursework Part A – Project Proposal/Coursework Part A – Project Proposal/Coursework Part A"
+                ]
+              },
+              {
+                "group": "Project Implementation",
+                "pages": [
+                  "Coursework/Coursework Part D/index"
+                ]
+              },
+              "Coursework/Standardized Gitee Workflow"
             ]
           },
           {
