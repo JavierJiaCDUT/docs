@@ -58,6 +58,30 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Reading Materials",
+            "icon": "book-open",
+            "pages": [
+              "Reading Materials/what_is_scrum",
+              "Reading Materials/learn_git"
+            ]
+          },
+          {
+            "group": "Tools & Resources",
+            "icon": "wrench",
+            "pages": [
+              "project-management-tools",
+              "templates-and-frameworks",
+              "related-links"
+            ]
+          },
+          {
+            "group": "How To",
+            "icon": "lightbulb",
+            "pages": [
+              "how-to"
+            ]
           }
         ]
       },
