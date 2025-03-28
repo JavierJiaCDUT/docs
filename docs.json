@@ -80,44 +80,24 @@
             "icon": "link",
             "pages": [
               {
-                "group": "Development Resources",
-                "pages": [
-                  {
-                    "group": "Software Development Tool",
-                    "pages": ["Related Links/software-development-tools"]
-                  },
-                  {
-                    "group": "AI Tools",
-                    "pages": ["Related Links/ai-tools"]
-                  },
-                  {
-                    "group": "Frontend Technology",
-                    "pages": ["Related Links/frontend-technology"]
-                  },
-                  {
-                    "group": "Frontend Framework",
-                    "pages": ["Related Links/frontend-framework"]
-                  }
-                ]
+                "group": "Software Development Tool",
+                "pages": ["Related Links/software-development-tools"]
+              },
+              {
+                "group": "AI Tools",
+                "pages": ["Related Links/ai-tools"]
+              },
+              {
+                "group": "Frontend Technology",
+                "pages": ["Related Links/frontend-technology"]
+              },
+              {
+                "group": "Frontend Framework",
+                "pages": ["Related Links/frontend-framework"]
               }
             ]
-          },
-          {
-            "group": "Software Development Tool",
-            "pages": ["Related Links/software-development-tools"]
-          },
-          {
-            "group": "AI Tools",
-            "pages": ["Related Links/ai-tools"]
-          },
-          {
-            "group": "Frontend Technology",
-            "pages": ["Related Links/frontend-technology"]
-          },
-          {
-            "group": "Frontend Framework",
-            "pages": ["Related Links/frontend-framework"]
           }
+          // 移除重复的独立分组
         ]
       }
     ]
