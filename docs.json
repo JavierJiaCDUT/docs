@@ -79,7 +79,15 @@
             "group": "Related Links",
             "icon": "link",
             "pages": [
-              "Related Links/related_links"
+              {
+                "group": "Development Resources",
+                "pages": [
+                  "Related Links/software-development-tools",
+                  "Related Links/ai-tools",
+                  "Related Links/frontend-technology",
+                  "Related Links/frontend-framework"
+                ]
+              }
             ]
           },
           {
